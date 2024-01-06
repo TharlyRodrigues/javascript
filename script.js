@@ -64,7 +64,7 @@ const calcTempAmplitudeNew = function (t1, t2) {
   return max - min;
 };
 const amplitudeNew = calcTempAmplitudeNew([3, 5, 1], [9, 0, 5]);
-console.log(amplitudeNew);*/
+console.log(amplitudeNew);
 
 ///////////////////////////////////////
 // Debugging with the Console and Breakpoints
@@ -111,7 +111,7 @@ const calcTempAmplitudeBug = function (t1, t2) {
 };
 const amplitudeBug = calcTempAmplitudeBug([3, 5, 1], [9, 4, 5]);
 // A) IDENTIFY
-console.log(amplitudeBug);
+console.log(amplitudeBug);*/
 
 ///////////////////////////////////////
 // Coding Challenge #1
@@ -129,7 +129,6 @@ TEST DATA 1: [17, 21, 23]
 TEST DATA 2: [12, 5, -5, 0, 4]
 */
 
-/*
 // 1) Understanding the problem
 // - Array transformed to string, separated by ...
 // - What is the X days? Answer: index + 1
@@ -147,11 +146,10 @@ const data2 = [12, 5, -5, 0, 4];
 console.log(`... ${data1[0]}ºC ... ${data1[1]}ºC ... ${data1[2]}ºC ...`);
 
 const printForecast = function (arr) {
-  let str = '';
+  let str = "";
   for (let i = 0; i < arr.length; i++) {
     str += `${arr[i]}ºC in ${i + 1} days ... `;
   }
-  console.log('...' + str);
+  console.log("..." + str);
 };
 printForecast(data1);
-*/
