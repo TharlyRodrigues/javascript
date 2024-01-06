@@ -1,6 +1,6 @@
 // Remember, we're gonna use strict mode in all scripts now!
 "use strict";
-
+/*
 ///////////////////////////////////////
 // Using Google, StackOverflow and MDN
 
@@ -64,7 +64,7 @@ const calcTempAmplitudeNew = function (t1, t2) {
   return max - min;
 };
 const amplitudeNew = calcTempAmplitudeNew([3, 5, 1], [9, 0, 5]);
-console.log(amplitudeNew);
+console.log(amplitudeNew);*/
 
 ///////////////////////////////////////
 // Debugging with the Console and Breakpoints
@@ -74,7 +74,7 @@ const measureKelvin = function () {
     unit: "celsius",
 
     // C) FIX
-    // value: Number(prompt('Degrees celsius:')),
+    // value: Number(prompt("Degrees celsius:")),
     value: 10,
   };
 
